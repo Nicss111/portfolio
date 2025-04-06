@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8e6f5; 
+    color: #333; 
+}
+
+nav {
+    background-color: #ff66b2; 
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-container .logo {
+    font-size: 24px;
+    color: #fff; 
+}
+
+.nav-container .logo span {
+    color: #ff99cc; 
+}
+
+.nav-container .links a {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-container .links a:hover {
+    color: #ff99cc; 
+}
+
+section {
+    padding: 100px 20px 40px;
+    min-height: 100vh;
+    background-color: #fff; 
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 2.5rem;
+    color: #ff66b2; 
+}
+
+p {
+    color: #555; 
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.tech-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.tech-item {
+    text-align: center;
+}
+
+.tech-item i {
+    font-size: 3rem;
+    color: #ff66b2; 
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.project-item {
+    width: 30%;
+    background-color: #fff; 
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 2px solid #ff99cc; 
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-item:hover {
+    transform: translateY(-10px);
+}
+
+button, a {
+    color: #fff; 
+    background-color: #ff66b2; 
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600; 
+    border-radius: 30px; 
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover, a:hover {
+    background-color: #ff99cc; 
+    transform: scale(1.05); /
+}
+
+@media (max-width: 768px) {
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .tech-list {
+        flex-direction: column;
+    }
+
+    .tech-item {
+        margin-bottom: 20px;
+        
+    }
+}
+
