@@ -29,7 +29,7 @@ nav {
 }
 
 .nav-container .logo span {
-    color: #ff99cc; 
+    color: #278ad5; 
 }
 
 .nav-container .links a {
@@ -41,7 +41,7 @@ nav {
 }
 
 .nav-container .links a:hover {
-    color: #ff99cc; 
+    color: #278ad5; 
 }
 
 section {
@@ -58,7 +58,7 @@ section {
 
 h1, h2 {
     font-size: 2.5rem;
-    color: #ff66b2; 
+    color: #278ad5; 
 }
 
 p {
