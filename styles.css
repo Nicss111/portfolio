@@ -80,7 +80,7 @@ p {
 
 .tech-item i {
     font-size: 3rem;
-    color: #ff66b2; 
+    color: #278ad5; 
 }
 
 .projects {
@@ -96,7 +96,7 @@ p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease;
-    border: 2px solid #ff99cc; 
+    border: 2px solid #278ad5; 
 }
 
 .project-item img {
@@ -111,7 +111,7 @@ p {
 
 button, a {
     color: #fff; 
-    background-color: #ff66b2; 
+    background-color: #278ad5; 
     border: none;
     padding: 12px 25px;
     font-size: 16px;
@@ -123,7 +123,7 @@ button, a {
 }
 
 button:hover, a:hover {
-    background-color: #ff99cc; 
+    background-color: #278ad5; 
     transform: scale(1.05); /
 }
 
